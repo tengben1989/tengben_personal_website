@@ -1,1 +1,106 @@
-personal website
+# 个人网站
+
+一个现代化、响应式的个人作品集网站，使用纯 HTML、CSS 和 JavaScript 构建。
+
+## 🌟 特性
+
+- **响应式设计**：完美适配桌面、平板和手机设备
+- **现代化 UI**：渐变背景、卡片设计、平滑动画
+- **完整功能模块**：
+  - 导航栏（含移动端汉堡菜单）
+  - Hero 展示区
+  - 关于我
+  - 项目展示
+  - 技能专长（带动画进度条）
+  - 联系方式（含表单验证）
+  - 页脚
+- **交互体验**：
+  - 平滑滚动导航
+  - 活动链接高亮
+  - 元素淡入动画
+  - 技能条动画
+  - 返回顶部按钮
+  - 表单验证
+
+## 📁 项目结构
+
+```
+/workspace
+├── index.html          # 主页面
+├── css/
+│   └── style.css      # 样式文件
+├── js/
+│   └── main.js        # JavaScript 逻辑
+├── images/            # 图片资源目录
+├── projects/          # 项目相关文件目录
+└── readme.md          # 说明文档
+```
+
+## 🚀 快速开始
+
+### 本地预览
+
+直接在浏览器中打开 `index.html` 文件即可预览。
+
+或使用本地服务器：
+
+```bash
+# 使用 Python 3
+python -m http.server 8000
+
+# 使用 Node.js (需要先安装 http-server)
+npx http-server -p 8000
+```
+
+然后在浏览器访问 `http://localhost:8000`
+
+## 🎨 自定义
+
+### 修改个人信息
+
+1. 编辑 `index.html` 文件中的以下内容：
+   - 姓名、职位等基本信息
+   - 关于我部分的描述
+   - 项目案例
+   - 技能列表和进度
+   - 联系方式
+
+2. 编辑 `css/style.css` 可以修改：
+   - 主题颜色（在 `:root` 变量中）
+   - 字体、间距等样式
+
+3. 编辑 `js/main.js` 可以修改：
+   - 交互行为
+   - 动画效果
+
+### 添加真实图片
+
+将您的照片和项目截图放入 `images/` 目录，然后更新 HTML 中的占位符：
+
+```html
+<!-- 替换这部分 -->
+<div class="placeholder-image">个人照片</div>
+
+<!-- 为 -->
+<img src="images/your-photo.jpg" alt="个人照片" class="about-img">
+```
+
+## 📱 浏览器支持
+
+- Chrome (最新)
+- Firefox (最新)
+- Safari (最新)
+- Edge (最新)
+- 移动浏览器
+
+## 📄 许可证
+
+MIT License
+
+## 🤝 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
+---
+
+**祝您使用愉快！** 🎉
